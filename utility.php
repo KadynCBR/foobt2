@@ -14,11 +14,14 @@ class Data {
   }
 
   public function output() {
-    echo " <p> HELLO!!!! </p>";
+    return " <p> HELLO!!!! </p>";
   }
 }
 */
-echo "<p> Hello! &copy; !!!!</p>";
+function hello() {
+  return "<p> Hello! !!!!</p>";
+} 
+
 
 
 ?>

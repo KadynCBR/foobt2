@@ -1,24 +1,18 @@
-<?php
-/*
-class Data {
-  public function dbconnect() {
-    $db_conx = mysqli_connect("23.99.19.240", "root", "finalhalo42", "");
-    // Evaluate the connection
-    if (mysqli_connect_errno()) {
-      echo mysqli_connect_error();
-      exit();
-    } else {
-      echo "<p>Successful database connection, happy coding!!!</p>";
-      mysql_close(db_conx);
-    }
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foobt^2</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <!-- Testing -->
+    <div id="dev-nav"> DEVELOPMENT NAVIGATION </div>
+    <!-- End Testing -->
 
-  public function output() {
-    echo " <p> HELLO!!!! </p>";
-  }
-}
-*/
-echo "<p> Hello! &copy; !!!!</p>";
-
-
-?>
+    <!-- PHP INCLUDE -->
+    <?php 
+      echo "go away anne";
+    ?>
+    <!-- END PHP -->
+  </body>
+</html>
